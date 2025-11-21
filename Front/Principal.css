@@ -62,32 +62,89 @@ a{
 }
 
 .destacadas{
-    margin-top: 65px;
+    margin: 65px;
     text-align: center;
 }
 
 .bicis_destacadas{
     display: flex;
-    padding: 30px;
-    margin: 20px;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
 .bici_destacada{
+    width: 100%;
     display: grid;
     place-items: center; /*
     .Centra horizontal y vertical con GRID*/
-    border: solid 1px;
-    border-color: black;
     border-radius: 10px;
-    padding: 10px;
+    /* Fondo blanco para simular la tarjeta */
+    background-color: #ffffff;
+    /* Relleno para que el contenido no toque los bordes */
+    padding: 15px;
+    /* El sombreado en sí */
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 
 .bici{
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .precio{
     font-size: arial;
+    margin: 12px;
+}
+
+.add{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.accesorios{
+    text-align: center;
+    margin: 65px;
+}
+
+.accesories{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+.componentes{
+    text-align: center;
+    margin: 65px;
+}
+
+.partes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
